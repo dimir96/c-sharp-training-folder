@@ -30,7 +30,7 @@ Console.WriteLine($"Результат f({x2}) = 1/{x2} + 0.6 = {result2}");
 Console.WriteLine();
 
 // [-4; 3], f(x) = Cos(|π*x|)
-double x3 = Random(-10,-2);
+double x3 = Random(-4,3);
 double result3 = Math.Cos(Math.Abs(Math.PI*x3));
 Console.WriteLine($"Результат f({x3}) = Cos(|π*{x3}|) = {result3}");
 
